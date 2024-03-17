@@ -1,8 +1,4 @@
-// backend/controllers/taskController.js
-
 const Task = require('../models/Task');
-
-// Controller methods for handling CRUD operations
 const taskController = {
   // Create a new task
   createTask: async (req, res) => {
